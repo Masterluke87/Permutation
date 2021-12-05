@@ -14,6 +14,6 @@ The program permRand.py creates a set of N arrays each containing M indices. Eac
  [0 0 0 1 1 0 1 0 0 0]]
 ```
 
- In addition, the -t switch controls a target speads, leading to more evenly distributed array.
+ In addition, the -t switch controls a target spread, allowing to create more evenly distributed array indices.
 
 
