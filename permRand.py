@@ -56,10 +56,11 @@ def sampleUnderConstraint(M,k,N,constCombs,randomSampleSize):
                 unique = False
         if unique==True:
             constCombs.append(i)
+            print("Progress: {}/{}".format(len(constCombs),N))
             if len(constCombs)==N:
                 return True
             
-            print("Progress: {}/{}".format(len(constCombs),N))
+            
     return False
 
 
